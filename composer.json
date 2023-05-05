@@ -1,0 +1,31 @@
+{
+    "name": "truenorthmortgage/postmark-mailer",
+    "description": "Postmark mailer for Yii2",
+    "type": "yii2-extension",
+    "require": {
+        "php": "^7.4",
+        "wildbit/postmark-php": "^4.0",
+        "yiisoft/yii2": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "True North Mortgage",
+            "email": "info@truenorthmortgage.ca"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": { "truenorthmortgage\\postmark\\": "src/" }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
