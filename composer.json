@@ -2,8 +2,10 @@
     "name": "truenorthmortgage/postmark-mailer",
     "description": "Postmark mailer for Yii2",
     "type": "yii2-extension",
+    "platform": {
+        "php": ">=7.4 || >=8.0"
+    },
     "require": {
-        "php": "^7.4",
         "wildbit/postmark-php": "^4.0",
         "yiisoft/yii2": "^2.0"
     },
