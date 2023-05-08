@@ -2,6 +2,7 @@
     "name": "truenorthmortgage/postmark-mailer",
     "description": "Postmark mailer for Yii2",
     "type": "yii2-extension",
+    "license": "MIT",
     "platform": {
         "php": ">=7.4 || >=8.0"
     },
